@@ -168,8 +168,6 @@
     <Compile Include="Controllers\locationsController.cs" />
     <Compile Include="Controllers\NewsearchController.cs" />
     <Compile Include="Controllers\SearchengineController.cs" />
-    <Compile Include="Controllers\SearchparamsController.cs" />
-    <Compile Include="Controllers\SiteresultsController.cs" />
     <Compile Include="Controllers\SourcetypeController.cs" />
     <Compile Include="Filters\ApiSecurity.cs" />
     <Compile Include="Filters\Authentication.cs" />
