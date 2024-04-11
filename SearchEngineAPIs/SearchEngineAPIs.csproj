@@ -135,6 +135,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="App_Start\WebApiConfig2.cs" />
+    <Compile Include="App_Start\WebApiConfig3.cs" />
     <Compile Include="Areas\HelpPage\ApiDescriptionExtensions.cs" />
     <Compile Include="Areas\HelpPage\App_Start\HelpPageConfig.cs" />
     <Compile Include="Areas\HelpPage\Controllers\HelpController.cs" />
@@ -168,6 +169,7 @@
     <Compile Include="Controllers\NewsearchController.cs" />
     <Compile Include="Controllers\SearchengineController.cs" />
     <Compile Include="Controllers\SearchparamsController.cs" />
+    <Compile Include="Controllers\SiteresultsController.cs" />
     <Compile Include="Controllers\SourcetypeController.cs" />
     <Compile Include="Filters\ApiSecurity.cs" />
     <Compile Include="Filters\Authentication.cs" />
