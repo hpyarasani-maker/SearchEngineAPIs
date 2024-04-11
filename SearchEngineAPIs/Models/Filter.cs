@@ -14,8 +14,8 @@ namespace SearchEngineAPIs.Models
         public string Device { get; set; }
         public string Location { get; set; }
         public string Dummy { get; set; }
-
         public string type { get; set; }
-   
-}
+        public string format { get; set; }
+
+    }
 }
