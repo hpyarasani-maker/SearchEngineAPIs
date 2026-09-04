@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SearchEnginesEntities-Web.config Connection String" description="SearchEnginesEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=googlefirstpage.database.windows.net;initial catalog=SearchEngines;persist security info=True;user id=hemachander@googlefirstpage;password=Brisbane007;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\phema\\Source\\Repos\\pi-software-solutions-private-limited\\SearchEngineAPIs\\SearchEngineAPIs\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SearchEnginesEntities']/@connectionString" />
+  </parameter>
+  <parameter name="TrackingKeywordsConnection-Web.config Connection String" description="TrackingKeywordsConnection Connection String used in web.config by the application to access the database." defaultValue="server=googlefirstpage.database.windows.net;database=TrackingKeywords;uid=hemachander@googlefirstpage;password=Brisbane007;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\phema\\Source\\Repos\\pi-software-solutions-private-limited\\SearchEngineAPIs\\SearchEngineAPIs\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TrackingKeywordsConnection']/@connectionString" />
+  </parameter>
+  <parameter name="myConnectionString-Web.config Connection String" description="myConnectionString Connection String used in web.config by the application to access the database." defaultValue="server=googlefirstpage.database.windows.net;database=SearchEngines;uid=hemachander@googlefirstpage;password=Brisbane007;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\phema\\Source\\Repos\\pi-software-solutions-private-limited\\SearchEngineAPIs\\SearchEngineAPIs\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='myConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

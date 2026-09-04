@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SearchEnginesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="SearchEnginesList">
+    <Key>
+      <PropertyRef Name="Seid" />
+    </Key>
+    <Property Name="Seid" Type="Int32" Nullable="false" />
+    <Property Name="Source" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Domain" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Query" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Limit" Type="Int32" />
+    <Property Name="Pages" Type="Int32" />
+    <Property Name="Locale" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Geo_Location" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="UULE" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Safe_Search" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Safe" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Device" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Results" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Provider" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="tbm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SEName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="SearchEnginesEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="SearchEnginesLists" EntityType="Self.SearchEnginesList" />
+  </EntityContainer>
+</Schema>

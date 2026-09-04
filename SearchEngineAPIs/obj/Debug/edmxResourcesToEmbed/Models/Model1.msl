@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SearchEnginesModelStoreContainer" CdmEntityContainer="SearchEnginesEntities">
+    <EntitySetMapping Name="SearchEnginesLists">
+      <EntityTypeMapping TypeName="SearchEnginesModel.SearchEnginesList">
+        <MappingFragment StoreEntitySet="SearchEnginesList">
+          <ScalarProperty Name="Seid" ColumnName="Seid" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="Domain" ColumnName="Domain" />
+          <ScalarProperty Name="Query" ColumnName="Query" />
+          <ScalarProperty Name="Limit" ColumnName="Limit" />
+          <ScalarProperty Name="Pages" ColumnName="Pages" />
+          <ScalarProperty Name="Locale" ColumnName="Locale" />
+          <ScalarProperty Name="Geo_Location" ColumnName="Geo_Location" />
+          <ScalarProperty Name="UULE" ColumnName="UULE" />
+          <ScalarProperty Name="Safe_Search" ColumnName="Safe_Search" />
+          <ScalarProperty Name="Safe" ColumnName="Safe" />
+          <ScalarProperty Name="Device" ColumnName="Device" />
+          <ScalarProperty Name="Results" ColumnName="Results" />
+          <ScalarProperty Name="Provider" ColumnName="Provider" />
+          <ScalarProperty Name="tbm" ColumnName="tbm" />
+          <ScalarProperty Name="SEName" ColumnName="SEName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
